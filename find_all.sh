@@ -14,7 +14,7 @@ findFiles(){
     do
         for file in "${file_list[@]}"
         do
-            find "/home/$user/public_html/$file" -type f 2>/dev/null >> found_files.txt
+            find -O2 "/home/$user/public_html/$file" -type f 2>/dev/null >> found_files.txt
         done
     done
 }

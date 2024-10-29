@@ -4,7 +4,7 @@ Find\_all searches all or specified cPanels for a list of files. It was original
 
 ## Requirements
 
-The script is designed for cPanel servers that use RedHat Linux derived distros. It has specifically been tested on AlmaLinux 8, but should work on CentOS servers as well.
+The script is designed for cPanel servers that use RedHat Linux derived distros. It has specifically been tested on AlmaLinux 8, but should work on CentOS servers as well. Find_all must be ran with root level privileges.
 
 ## Configuration
 
