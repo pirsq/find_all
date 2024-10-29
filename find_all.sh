@@ -6,6 +6,8 @@
 cPusers=($(cat /etc/trueuserowners | cut -d: -f1))
 file_list=('readme.htm' 'default.htm' 'phpinfo.php' '_info.php')
 
+printf "\nThis script was last ran on $(date -R) \n\n" >> found_files.txt
+
 
 findFiles(){
     for user in "${cPusers[@]}"
